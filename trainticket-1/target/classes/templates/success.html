@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<body>
+<div id="su">
+
+</div>
+<script src="./js/jquery.js"></script>
+<script th:inline="javascript">
+    var single = [[${success}]];
+    var divHtml=$("#su").html(single);
+</script>
+</body>
+</html>

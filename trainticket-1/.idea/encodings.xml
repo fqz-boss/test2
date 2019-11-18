@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/controller/LoginController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/security/AppAuthenticationSuccessHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/security/AppSecurityConfigurer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/service/LoginService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/agile/agiletest/traintickets/service/impl/loginServiceImpl.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

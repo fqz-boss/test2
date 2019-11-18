@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="../js/jquery.js"></script>
+<script>
+
+   console.log("aaaaaaaa")
+ $.ajax({
+     type: "post",
+     url: '/buyticket',
+     contentType:'application/json;charset=utf-8',
+
+     success: function(data){
+         if (data.stateCode === 200){
+             // 付款成功
+             console.log("成功付款转向订单页面");
+             window.location.href = '/order';
+         }
+         else{
+             // 付款失败,错误信息在data.msg里面
+             alert("错误信息：" + data.msg);
+         }
+     }
+ })
+</script>
+</body>
+</html>
